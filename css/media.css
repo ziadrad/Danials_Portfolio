@@ -1,0 +1,58 @@
+/* sm */
+@media (min-width:640px) {}
+
+/* md */
+@media (min-width:768px) {
+
+    #Team .card-body h5{
+       padding-top: 5px ;
+     
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+    .hero-p{
+        font-size: 4rem;
+    }
+    .container{
+        max-width: 1200px;
+    }
+    #home{
+        background-attachment: fixed;
+    }
+
+
+   
+    .nav-link::after{
+        content: "";
+        width: 0pX;
+        height: 2px;
+      background-color: black;
+        position: absolute;
+        bottom: 5px;
+       
+        left: 10px;
+        transition: all 0.25s;
+    }
+ 
+    .nav-link.active::after{
+        width: 65%;
+    }
+    
+    .content a{
+        color: var(--main-color);
+    }
+    .service-card-tittle{
+        font-size: 1.5rem;
+    }
+     #CONTACT .container{
+        max-width: 1100px;
+     }
+}
+
+/* xl */
+@media (min-width:1280px) {}
+
+/* 2xl */
+@media (min-width:1536px) {}
